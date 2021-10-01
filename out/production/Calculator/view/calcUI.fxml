@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane cacheShape="false" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.Controller">
+   <children>
+      <Pane cacheShape="false" prefHeight="424.0" prefWidth="255.0" style="-fx-background-color: gray; -fx-background-radius: 15px; -fx-padding: 4;">
+         <children>
+            <TextField fx:id="tb_window" alignment="CENTER" editable="false" layoutX="15.0" layoutY="13.0" prefHeight="81.0" prefWidth="225.0">
+               <font>
+                  <Font name="Consolas" size="18.0" />
+               </font>
+               <effect>
+                  <InnerShadow choke="0.11" height="29.89" radius="13.705" width="26.93" />
+               </effect>
+            </TextField>
+            <Button fx:id="btn_C" layoutX="18.0" layoutY="99.0" mnemonicParsing="false" onAction="#click_C_Btn" prefHeight="48.0" prefWidth="107.0" text="C">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_del" layoutX="129.0" layoutY="99.0" mnemonicParsing="false" onAction="#clickDelButton" prefHeight="48.0" prefWidth="107.0" text="Del">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_1divX" layoutX="17.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickOneDivNum" prefHeight="48.0" prefWidth="52.0" text="1/x">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_exponencial" layoutX="73.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickExponential" prefHeight="48.0" prefWidth="52.0" text="x^2">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_squareRoot" layoutX="129.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickSquareRoot" prefHeight="48.0" prefWidth="52.0" text="√x">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_divide" layoutX="185.0" layoutY="150.0" mnemonicParsing="false" onAction="#clickOperation" prefHeight="48.0" prefWidth="52.0" text="/">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="btn_7" layoutX="17.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="7">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_8" layoutX="73.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="8">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_9" layoutX="129.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="9">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_multiply" layoutX="185.0" layoutY="201.0" mnemonicParsing="false" onAction="#clickOperation" prefHeight="48.0" prefWidth="52.0" text="*">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_4" layoutX="17.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="4">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_5" layoutX="73.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="5">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_6" layoutX="129.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="6">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_subtract" layoutX="185.0" layoutY="252.0" mnemonicParsing="false" onAction="#clickOperation" prefHeight="48.0" prefWidth="52.0" text="-">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Button>
+            <Button fx:id="btn_1" layoutX="17.0" layoutY="303.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="1">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_2" layoutX="73.0" layoutY="303.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="2">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_3" layoutX="129.0" layoutY="303.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="3">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_sum" layoutX="185.0" layoutY="303.0" mnemonicParsing="false" onAction="#clickOperation" prefHeight="48.0" prefWidth="52.0" text="+" textAlignment="CENTER">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_InvertSignal" layoutX="17.0" layoutY="354.0" mnemonicParsing="false" onAction="#clickInvertSignal" prefHeight="48.0" prefWidth="52.0" text="+/-">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_0" layoutX="73.0" layoutY="354.0" mnemonicParsing="false" onAction="#clickBtn" prefHeight="48.0" prefWidth="52.0" text="0">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+            </Button>
+            <Button fx:id="btn_comma" layoutX="129.0" layoutY="354.0" mnemonicParsing="false" onAction="#clickComma" prefHeight="48.0" prefWidth="52.0" text=".">
+               <effect>
+                  <InnerShadow blurType="ONE_PASS_BOX" />
+               </effect>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn_result" layoutX="185.0" layoutY="354.0" mnemonicParsing="false" onAction="#clickOperation" prefHeight="48.0" prefWidth="52.0" text="=">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Label layoutX="40.0" layoutY="403.0" prefHeight="17.0" prefWidth="173.0" text="Project made by Hugo Penacho" textFill="#404040" />
+         </children>
+         <effect>
+            <InnerShadow blurType="TWO_PASS_BOX" choke="0.14" height="52.3" radius="25.979999999999997" width="53.62">
+               <input>
+                  <SepiaTone level="0.58" />
+               </input>
+            </InnerShadow>
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>
