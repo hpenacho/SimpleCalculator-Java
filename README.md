@@ -44,7 +44,7 @@ This project uses the following technologies:
 
 MIT
 
----
+--- 
 
 <p align="center" width="100%">
   <a href="https://github.com/hpenacho"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"></a> 
